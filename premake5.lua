@@ -22,7 +22,7 @@ project "ImGui"
 	filter "system:windows"
 		systemversion "latest"
 		cppdialect "C++17"
-        staticruntime "On"
+        staticruntime "off"
         defines{
             "ER_BUILDING_ON_WINDOWS"
         }
